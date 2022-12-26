@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img class="logograzi" src="grazielle.png" alt="Logo Grazielle">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="8"
+                placeholder="   &#128712; Apenas letras minúsculas e sem acentos."></textarea>
+            <div class="botoes">
+                <button class="criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="mensagem-box">
+            <textarea class="mensagem" cols="18" rows="11" disabled placeholder=" 
+Nenhuma mensagem encontrada! 
+
+    Digite um texto que você 
+deseja criptografar ou descriptografar."></textarea>
+            <div id="div-aparece">
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="textorodape">© Desenvolvido por Grazielle Melo Borges Torres</p>
+        <div class="icones">
+            <a href="https://www.linkedin.com/in/grazielle-borges-38b96711a/"> <img class="iconelinkedin"
+                    src="logo-linkedin-2048.png"></a>
+            <a href="https://github.com/MBTGrazielle"><img class="iconegithub" src="git.png"></a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

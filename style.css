@@ -1,0 +1,178 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+body {
+    background: linear-gradient(#EFF1FA, #AAB2D5, #EFF1FA, #757FB2, #031e40);
+}
+
+main {
+    display: flex;
+    margin-bottom: 44px;
+    width: 940px;
+}
+
+textarea {
+    padding: 10px 10px;
+}
+
+.logo {
+    width: 32px;
+    height: 48px;
+    margin-left: 20px;
+    vertical-align: 50px;
+}
+
+.logograzi {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.input-texto {
+    background: transparent;
+    margin: 40px 203px;
+    border-color: #0A3871;
+    border-style: dashed;
+    border-radius: 24px;
+    color: #052051;
+    font-weight: bold;
+}
+
+.input-texto:hover {
+    border-color: #052051;
+    border-style: dashed;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.mensagem-box {
+    background-image: url(figura.png);
+    background-repeat: no-repeat;
+
+}
+
+.mensagem {
+    color: #000000;
+    font-weight: bold;
+    background: none;
+    background-image: ;
+    border-color: #0A3871;
+    border-style: dashed;
+    border-radius: 24px;
+    margin-right: 60px;
+    vertical-align: top;
+}
+
+.mensagem::placeholder {
+    padding-top: 265px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.botoes {
+    margin: 5px 250px;
+}
+
+.criptografar {
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #0A3871;
+    border-color: #0A3871;
+    border-radius: 24px;
+    padding: 5px 15px;
+}
+
+.criptografar:hover {
+    border-color: yellowgreen;
+    color: #000000;
+    background: #356EA9;
+    transition: 350ms;
+    font-weight: bold;
+}
+
+.criptografar:active {
+    border-color: yellowgreen;
+}
+
+.descriptografar {
+    font-weight: bold;
+    color: #052051;
+    background: #F3F5FC;
+    border-color: #052051;
+    border-radius: 24px;
+    padding: 5px 15px;
+    margin-left: 60px;
+}
+
+.descriptografar:hover {
+    border-color: yellowgreen;
+    color: #000000;
+    transition: 350ms;
+    font-weight: bold;
+}
+
+.descriptografar:active {
+    border-color: yellowgreen;
+}
+
+.copiar {
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #052051;
+    background: #F3F5FC;
+    border-color: #052051;
+    border-style: dashed;
+    border-radius: 24px;
+    margin-top: -58px;
+    display: flex;
+    margin-left: 116px;
+}
+
+.copiar:hover {
+    border-color: yellowgreen;
+    color: #000000;
+    transition: 350ms;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.copiar:active {
+    border-color: yellowgreen;
+}
+
+.mensagem-box {
+    justify-content: center;
+}
+
+.textorodape {
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.iconelinkedin {
+    width: 60px;
+    height: 60px;
+    margin-left: 750px;
+}
+
+.iconegithub {
+    width: 35px;
+    height: 35px;
+    vertical-align: 18px;
+}
+
+@media screen and (max-width: 480px) {
+
+}
